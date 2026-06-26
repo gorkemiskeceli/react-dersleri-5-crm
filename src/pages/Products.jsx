@@ -7,7 +7,7 @@ import {
   deleteProduct,
   setSelectedCategory,
   setSelectedProduct,
-} from "../store/productSlice";
+} from "../store/productSlice"; 
 
 function ProductIcon({ type }) {
   if (type === "desktop") {

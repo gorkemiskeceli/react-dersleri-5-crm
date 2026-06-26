@@ -286,7 +286,13 @@ export default function Dashboard() {
         <div className="card-container">
           <div className="card-title">
             <span>Son Aktiviteler</span>
-            <button type="button" onClick={()=>dispatch(setActiveTab('messages'))} className="card-link">Mesajlara Git</button>
+            <button
+              type="button"
+              onClick={() => dispatch(setActiveTab("messages"))}
+              className="card-link"
+            >
+              Mesajlara Git
+            </button>
           </div>
           <div className="flex flex-col gap-4">
             {sortedActivities.length > 0 ? (
